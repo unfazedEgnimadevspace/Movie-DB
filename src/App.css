@@ -1,0 +1,32 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.App{
+    min-height: 100vh;
+    background-color: #39445a;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 700px) {
+    .App{
+        padding-top: 70px;
+    }
+}
+.pageTitle{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 3vw;
+    padding: 30px;
+    border-radius: 50px;
+    color: #bdc9e0;
+}
+@media (max-width: 1000px){
+    .trending{
+        font-size: 6.4vw;
+    }
+}
